@@ -36,6 +36,88 @@
 			<!-- put stuff between these-->
 			
 			
+<html>
+
+<head>  
+	<script type="text/javascript">
+	window.onload = function () {
+		var chart = new CanvasJS.Chart("chartContainer", {
+
+			title:{
+				text:"Age of Offender When Executed"				
+
+			},
+                        
+          
+          animationEnabled: true,
+			axisX:{
+				interval: 1,
+				gridThickness: 0,
+				labelFontSize: 10,
+				labelFontStyle: "normal",
+				labelFontWeight: "normal",
+				labelFontFamily: "Lucida Sans Unicode"
+
+			},
+			axisY2:{
+				interlacedColor: "rgba(1,77,101,.2)",
+				gridColor: "rgba(1,77,101,.1)"
+             
+
+			},
+
+			data: [
+			{     
+				type: "bar",
+                name: "Executions",
+				axisYType: "secondary",
+				color: "#014D65",				
+				dataPoints: [
+				
+		
+				{y: 12, label: "24-25"  },
+				{y: 72, label: "26-30"  },
+				{y: 111, label: "31-35"  },
+				{y: 154, label: "36-40"  },
+				{y: 67, label: "41-45"  },
+				{y: 62, label: "46-50"  },
+				{y: 33, label: "51-55"  },
+				{y: 17, label: "56-60"  },
+				{y: 9, label: "61-65"  },
+				{y: 5, label: "66-70"  },
+		
+				]
+			}
+			
+			]
+		});
+
+chart.render();
+}
+</script>
+<script type="text/javascript" src="/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+	<div id="chartContainer" style="height: 300px; width: 100%;">
+	</div>
+</body>
+	<h2>Artist Statement</h2>
+	<h3>Tim Williams</h3>
+
+<p>	For the group project I was tasked with creating a histogram portraying the various ages of inmates who were executed in Texas during the span of 1946 to 2016. While I was not required to use a histogram my teammates and I decided that the most effective way to create a visualization of age would be through these means, and I feel as though it worked. At first glance the graph is not very ostentatious because I do not feel as though it would be appropriate to be portraying hundreds of deaths in mediums such as bright or bold colors. The histogram provides somewhat relevant information on the dark reality of executions in Texas, and also America as a whole.
+	<p>It not only brings to light that 542 people have been executed in Texas since 1946, but also indirectly depicts how many horrific crimes have been committed in this single state for that many people to be sentenced to death by a jury of their peers.
+<p>	 If you look at the histogram you will see that it begins with the age range of 24-25 which is purposely not in line with the remaining intervals of the graph. My reasoning behind this was to not mislead the viewer that Texas has been executing 20 and 21 year old kids, and instead that the youngest inmate executed was 24 years old. While I was not quite sure if I should have remained on par with the rest of the intervals I felt as though in the end the viewer will understand and recognize this decision made. I then decided that simply having the bars extend horizontally below a number was not giving enough specificity and looked like something out of my high school Algebra textbook. In order to fix this issue I used the hover tool. 
+<p>     This tool showed the exact number of inmates for the given age range that was “hovered” over by the user. Doing this, in my opinion, made the general look a lot cleaner and definitely rendered the graph more useful for someone who might be looking for exact numbers. 
+	
+<p>	Finding data on this was relatively easy as Texas keeps detailed records on executions that go as far as to state the final words of all 542 of the executed inmates included in the histogram which is pretty eerie to see. I could also see why this would be available for the families of those who were harmed or killed by the inmate being executed or even for the families of the inmate but, nonetheless, a very strange thing to read. Overall, I would say that I enjoyed this experience of creating some more visualizations from data sets because of how interesting and bizarre the topic we chose is 
+	<p>and also how much I've learned from sitting down and trying to work through these massive amounts of data to get them into workable sets in which I can create a visualization from. If I were to do this over I would definitely like to add some more details into the hover tool which could create more of an impact on the viewer. 
+			
+		
+
+
+		
+		
+		</html>
 			
 			
 			
